@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 16
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.itheima.mobilesafe"
+        minSdkVersion 8
+        targetSdkVersion 17
+
+        testApplicationId "com.itheima.mobilesafe2"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles 'proguard-android.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:18.0.0'
+    compile files('libs/afinal_0.5_bin.jar')
+    compile files('libs/YoumiSdk_v4.06_2013-11-18.jar')
+}

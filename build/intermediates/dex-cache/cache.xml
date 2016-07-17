@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\ANDROID_PROJECT\MobileSafe\app\libs\afinal_0.5_bin.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="89729e3bc7f76890363b10e1e0dc5e57964c7807">
+        <dex dex="F:\ANDROID_PROJECT\MobileSafe\app\build\intermediates\pre-dexed\debug\afinal_0.5_bin-33c88182f70b24f6e46449d8520cea98f3f8c0b6.jar" />
+    </item>
+    <item
+        jar="F:\ANDROID_PROJECT\MobileSafe\app\libs\YoumiSdk_v4.06_2013-11-18.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3afb42de96d6cda485db1ebf6828c49eee80caad">
+        <dex dex="F:\ANDROID_PROJECT\MobileSafe\app\build\intermediates\pre-dexed\debug\YoumiSdk_v4.06_2013-11-18-16fc84e46e41d611ad3445c7994061f9eacfbee7.jar" />
+    </item>
+    <item
+        jar="D:\Android\android-sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="F:\ANDROID_PROJECT\MobileSafe\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-099cbd6d114024195b193012e6d1c6258ad44672.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!--android:background="@drawable/call_locate_blue"-->
+    <TextView
+        android:id="@+id/tv_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center_horizontal"
+        android:text="鎸変綇鎻愮ず妗嗘嫋鍔ㄥ埌浠绘剰浣嶇疆\n鎸夋墜鏈鸿繑鍥為敭绔嬪埢鐢熸晥"
+        android:textSize="20sp" />
+
+    <!--android:background="@drawable/call_locate_blue"-->
+    <TextView
+         android:id="@+id/tv_bottom"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center_horizontal"
+        android:text="鎸変綇鎻愮ず妗嗘嫋鍔ㄥ埌浠绘剰浣嶇疆\n鎸夋墜鏈鸿繑鍥為敭绔嬪埢鐢熸晥"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/iv_drag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dip"
+        android:src="@drawable/drag" />
+
+</RelativeLayout><!-- From: file:/F:/ANDROID_PROJECT/MobileSafe/app/src/main/res/layout/activity_drag_view.xml -->
